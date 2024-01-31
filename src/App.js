@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import 'bulma/css/bulma.min.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import { Login } from './components/auth/Login';
+import { Authorized } from './components/views/Authorized';
+import { NavBar } from './components/nav/NavBar';
+import { ApplicationViews } from './components/views/ApplicationViews';
+import { Register } from './components/auth/Register';
+import Logo from './images/Logo.png'
 
-function App() {
+
+export const App  = () => {
   return (
-    <div className="App">
+<BrowserRouter>
+    <div className="Dashboard">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      <figure className="image is-50%">
+      <img src={Logo} alt="Logo"></img>
+      </figure>    
+      <Routes>
+          <Route path="/login" element={<Login />} /> 
+          <Route path='/register' element={ <Register />} />         
+             
+          <Route path="*" element={
+			      <Authorized>
+				      <>
+                <NavBar />
+                <ApplicationViews />
+					      {/* <UserViews /> */}
+                
+				      </>
+			      </Authorized>
 
-export default App;
+		      } />
+      </Routes>
+
+    </header>
+   
+    </div>
+  </BrowserRouter>
+  );
+
+}

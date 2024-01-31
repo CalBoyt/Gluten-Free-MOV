@@ -1,3 +1,21 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #11171d;
+  min-height: 80rem;
+}
+.body {
+  display: flex;
+  flex-direction: column; 
+}
+.inner-body {
+  display: flex;
+  flex-direction: row;
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +32,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #11171d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
