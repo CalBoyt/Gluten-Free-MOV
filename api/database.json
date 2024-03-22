@@ -95,13 +95,27 @@
       "details": "130 Front St, Marietta, OH 45750",
       "image": "https://lh3.googleusercontent.com/p/AF1QipP1tA11u7JGv5TgnfODcbTlIDROe0yQ3MvhlP9v=s680-w680-h510",
       "review": "After hearing Austyn's is one of the best fine-dining establishments in the area, we went in with high hopes. We were also excited to see menu items labeled 'gluten-free'. After eyeing a dish labeled gf on the menu, our hopes were greatly disappointed when the server informed us that the labels were not accurate. She said someone got overly-excited with the gluten-free labels and put them on many dishes that are not, in fact, gf, and she didn't know which items were actually gf. What followed was a frustrating attempt to find something safe to eat, with the server making several trips back and forth to the kitchen to ask questions, us feeling like we were inconveniencing the server, and in the end, we just left without eating anything. One of the worst experiences I've ever had in any restaurant.",
-      "foodImg1": "./GFMOV/src/components/reviews/images/Koba1.jpg",
+      "foodImg1": "",
       "caption1": "Unfortunately, since we were unable to eat anything at Austyns, we don't have any photos of the food.",
       "foodImg2": "",
       "caption2": "",
       "foodImg3": "",
       "caption3": "",
       "starsSelected": 1
+    },
+    {
+      "id": 5,
+      "name": "Las Trancas",
+      "details": "41 Bosley Parkway Parkersburg, WV 26101",
+      "image": "/images/LT1.png",
+      "review": "Las Trancas has lots of gluten-free Mexican food options. Their rice and both kinds of beans are gf, as well as fajitas, tacos, and nachos. Beware the enchilada sauces, which are not gf, but you can substitute poblano or cheese dip for sauce. The reason my family eats here all the time is that the fryer they use for their tortilla chips is dedicated gf! We love the chips and salsa and my husband always wants the cheese dip too. My daughter loves the carnitas, which are really good, and my favorite is probably the Nachos Supremos.",
+      "foodImg1": "/images/LT3.jpg",
+      "caption1": "Nachos Supremos",
+      "foodImg2": "/images/LT1.jpg",
+      "caption2": "Tacos Al Pastor",
+      "foodImg3": "/images/LT2.jpg",
+      "caption3": "Arroz Con Pollo",
+      "starsSelected": 4
     }
   ],
   "messages": [
@@ -558,6 +572,30 @@
       "restaurantId": 1,
       "liked": true,
       "id": 51
+    },
+    {
+      "userId": 2,
+      "restaurantId": 5,
+      "liked": true,
+      "id": 52
+    },
+    {
+      "userId": 2,
+      "restaurantId": 5,
+      "liked": true,
+      "id": 53
+    },
+    {
+      "userId": 2,
+      "restaurantId": 5,
+      "liked": true,
+      "id": 54
+    },
+    {
+      "userId": 2,
+      "restaurantId": 5,
+      "liked": true,
+      "id": 55
     }
   ]
 }
